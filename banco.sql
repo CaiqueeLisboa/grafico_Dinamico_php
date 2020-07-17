@@ -11,6 +11,20 @@
 /*!40014 SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0 */;
 /*!40101 SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='NO_AUTO_VALUE_ON_ZERO' */;
 
+
+-- Copiando estrutura do banco de dados para grafico
+CREATE DATABASE IF NOT EXISTS `grafico` /*!40100 DEFAULT CHARACTER SET latin1 */;
+USE `grafico`;
+
+-- Copiando estrutura para tabela grafico.aluno
+CREATE TABLE IF NOT EXISTS `aluno` (
+  `id` int(11) NOT NULL,
+  `nome` varchar(50) NOT NULL DEFAULT '',
+  `idade` int(11) NOT NULL DEFAULT '0',
+  `sexo` char(10) NOT NULL DEFAULT '0',
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+
 -- Copiando dados para a tabela grafico.aluno: ~0 rows (aproximadamente)
 /*!40000 ALTER TABLE `aluno` DISABLE KEYS */;
 INSERT INTO `aluno` (`id`, `nome`, `idade`, `sexo`) VALUES
