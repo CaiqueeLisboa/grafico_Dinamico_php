@@ -5,4 +5,5 @@
 <p> Para que o projeto funcione basta fazer o download dos arquivos e executar o script do banco.sql</p>
 <br>
 <br>
-<h4></h4>
+<h3>Configurando sua conexão com o banco de dados</h3>
+<p>Após baixado os arquivos e executado script configurar a conexão com o banco de dados no arquivo conexao.php. corrigindo o seu servidor, usuario e senha</p>
